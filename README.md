@@ -64,7 +64,12 @@ This analysis helps businesses:
 
 ![Dashboard](dashboard_preview.png)
 
----
+ 📌 Business Recommendations
+
+- Focus on reducing churn in month-to-month customers
+- Improve onboarding for tech support services
+- Promote online security adoption among new users
+- Investigate customers with high support call frequency
 
 ## 🚀 Future Improvements
 - Add predictive churn modeling using Python/ML
