@@ -1,103 +1,77 @@
-# 📊 Customer Retention Analysis using SQL
+# 📌 Customer Retention Analysis (SQL + Power BI)
 
-## 🚀 Project Overview
-
-Customer churn is a major challenge for subscription-based businesses. This project analyzes customer behavior to identify the key factors that influence **customer retention and churn**.
-
-Using **SQL and MySQL Workbench**, the dataset was explored and analyzed to uncover patterns related to customer contracts, support services, pricing, and tenure.
+## 📊 Project Overview
+This project analyzes customer churn behavior using SQL for data analysis and Power BI for interactive visualization. The goal is to identify key factors affecting customer retention and churn rates and provide actionable business insights.
 
 ---
 
-## 🎯 Project Objective
-
-The main goal of this project is to:
-
-* Analyze customer churn behavior
-* Identify factors contributing to customer attrition
-* Provide insights that can help businesses improve **customer retention strategies**
-
----
-
-## 🗂 Dataset Information
-
-The dataset contains **20,000 customer records** with attributes such as:
-
-* Customer ID
-* Tenure
-* Monthly Charges
-* Total Charges
-* Contract Type
-* Payment Method
-* Internet Service
-* Tech Support
-* Online Security
-* Support Calls
-* Churn Status
+## 🎯 Objective
+To understand:
+- Why customers are leaving (churn)
+- Which factors influence retention
+- How services like tech support and online security impact churn
+- Which contract types lead to higher retention
 
 ---
 
-## 🛠 Tools & Technologies
-
-* **SQL**
-* **MySQL**
-* **MySQL Workbench**
-* **GitHub** (Project Version Control)
+## 🧰 Tools & Technologies Used
+- SQL (Data extraction & analysis)
+- Microsoft Power BI (Dashboard creation)
+- Excel / CSV (Dataset handling)
 
 ---
 
-## 🔍 Key Analysis Performed
-
-* Database creation and data import
-* Data validation and quality checks
-* Missing value detection
-* Duplicate record checks
-* Exploratory Data Analysis (EDA)
-* Customer churn rate calculation
-* Customer behavior analysis based on:
-
-  * Contract type
-  * Internet services
-  * Tech support
-  * Online security
-  * Monthly charges
-  * Tenure
-  * Support calls
+## 📁 Project Files
+- dataset.csv → Raw customer data  
+- customer_analysis.sql → SQL queries used for analysis  
+- customer_retention_dashboard.pbix → Power BI dashboard file  
+- dashboard_preview.png → Dashboard screenshot  
 
 ---
 
-## 📈 Key Insights
+## 📊 Key Insights
 
-* Overall **customer churn rate is approximately 34%**
-* Customers with **month-to-month contracts** have the highest churn
-* Customers **without tech support** are more likely to leave
-* **Higher monthly charges** correlate with increased churn
-* Customers with **shorter tenure** are more likely to churn
-* Payment method shows **minimal impact on churn**
-
----
-
-## 📁 Project Structure
-
-```
-customer-retention-analysis
-│
-├── customer_retention_analysis.sql
-├── customer_data.csv
-└── README.md
-```
+- 📉 Overall Churn Rate: ~34%
+- 📅 Month-to-month contracts have the highest churn rate
+- 🛠️ Customers without tech support are more likely to leave
+- 🔐 Lack of online security increases churn probability
+- 📞 Higher support calls indicate dissatisfied customers
 
 ---
 
-## 💡 Business Recommendations
+## 📈 Dashboard Features
 
-* Encourage customers to adopt **long-term contracts**
-* Improve **technical support availability**
-* Provide **value-added services** to high-paying customers
-* Focus on improving **early customer experience**
+Built an interactive Power BI dashboard including:
+- KPI Cards (Total Customers, Churn Rate)
+- Churn by Contract Type
+- Churn by Tech Support
+- Churn by Online Security
+- Churn by Support Calls
 
 ---
 
-## 👨‍💻 Author
+## 🧠 Business Impact
 
-SQL Data Analysis Project
-Created as part of learning and practicing **Data Analytics and SQL-based business analysis**.
+This analysis helps businesses:
+- Improve customer retention strategies
+- Identify high-risk customer segments
+- Optimize service offerings
+- Reduce churn rate and increase revenue stability
+
+---
+
+## 📷 Dashboard Preview
+
+![Dashboard](dashboard_preview.png)
+
+---
+
+## 🚀 Future Improvements
+- Add predictive churn modeling using Python/ML
+- Include customer segmentation analysis
+- Automate dashboard refresh using live data
+
+---
+
+## 👩‍💻 Author
+Anshika Yadav
